@@ -13,7 +13,7 @@ target/
 #eclipse ignore
 .settings/
 .project
-.classpach
+.classpath
 
 #idea
 .idea/
