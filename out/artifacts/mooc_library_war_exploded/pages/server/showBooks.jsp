@@ -44,7 +44,7 @@
 	$(function(){
 		$.ajax({
 			"type" : "post",
-			"url" : "/mooc_library/ShowAllBookServlet",
+			"url" : "/library/ShowAllBookServlet",
 			"data" : "",
 			"dataType" : "json",
 			"success" : function(json){
@@ -64,7 +64,7 @@
 			var categoryName = $("input[name=categoryName]").val();
 			$.ajax({
 				"type" : "post",
-				"url" : "/mooc_library/SelectBook",
+				"url" : "/library/SelectBook",
 				"data" : {"id" : id, "bookName" : bookName, "categoryName" : categoryName},
 				"dataType" : "json",
 				"success" : function(json){

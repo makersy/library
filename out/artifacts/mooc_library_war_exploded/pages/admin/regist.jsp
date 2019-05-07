@@ -64,7 +64,7 @@
             
             $.ajax({
                 type: "post",
-                url: "/mooc_library/UserExist",
+                url: "/library/UserExist",
                 data: "username=" + $("#username").val(),
                 success: function(message){
                 	var x = parseInt(message);
