@@ -11,3 +11,4 @@
 1. 需要配置好maven环境
 2. 在idea中，tomcat需设置Application Context为/library
 3. 本地访问页面URL：http://localhost:8080/library/pages/server/index.jsp
+4. 需要把web模块路径设置为WebContent文件夹，并使用它的web.xml文件
